@@ -1,6 +1,7 @@
 body {
   background: #fff;
 }
+
 .calculadora {
   margin-top: 40px;
   border: solid 1px #000;
@@ -11,22 +12,18 @@ body {
 }
 
 .btn {
-  width: 60px;
+  width: 60px !important;
   height: 50px;
   margin: 5px;
   box-shadow: 1px 1px 1px #000;
 }
 
-.clear {
-  width: 130px;
+.clear, .zero {
+  width: 130px !important;
 }
 
 .enter {
   height: 110px;
-}
-
-.zero {
-  width: 130px;
 }
 
 .resultado {
